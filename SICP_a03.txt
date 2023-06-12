@@ -1,0 +1,26 @@
+Assignment no. 3
+SICP, Spring 2023.
+Due: 11:59pm, Monday, 20th Mar 2023.
+Total marks: 50 (10 each).
+
+
+Instructions:
+========
+- You will write all the code in Scheme.
+- The book is available online: http://sarabander.github.io/sicp/html/index.xhtml
+- Try to make your code as modular as possible, i.e., try to divide each problem in functions. Each function should be preferably doing one thing only.
+- This is an individual assignment. You can't take copy code from anyone or anywhere.
+- Submission will be on MS Teams.
+- Each of you will submit only one file containing all procedure. It should be named u2020xxx.scm where xxx are the last 3 digits of your registration number.
+- Late submission will have 10 marks penalty. Then 10 marks per hour.
+
+
+Questions:
+=======
+Question 1: Exercise 1.30 of the book.
+Question 2: Exercise 1.41 of the book.
+Question 3: Exercise 2.18 of the book.
+Question 4: Exercise 2.31 of the book.
+Question 5: Exercise 2.32 of the book.
+
+When an explanation is in order, write your explanation as comments in the submitted file.
