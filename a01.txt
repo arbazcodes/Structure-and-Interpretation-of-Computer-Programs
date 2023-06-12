@@ -1,0 +1,40 @@
+Assignment no. 1
+SICP, Spring 2023.
+Due: 11:59pm, Wednesday, 22nd Feb 2023.
+Total marks: 50 (10 each).
+
+
+Instructions:
+========
+- You will write all the code in Scheme.
+- Try to make your code as modular as possible, i.e., try to divide each problem in functions. Each function should be preferably doing one thing only.
+- This is an individual assignment. You can't take copy code from anyone or anywhere.
+- Submission will be on MS Teams.
+- Each of you will submit only one file containing all procedure. It should be named u2020xxx.scm where xxx are the last 3 digits of your registration number.
+- Late submission will have 10 marks penalty. Then 10 marks per hour.
+
+
+Questions:
+=======
+Question 1: Write a procedure that takes 3 numbers and returns true (#t) if at least two of them are even, otherwise return false (#f). (Scheme has a predicate "even?" )
+
+Question 2: Write a procedure that takes a person's monthly salary and returns their tax payable such that:
+if salary is less than 20,000, tax is 0.
+if salary is >=20,000 and less than 50,000, tax is 10% of salary.
+if salary is >= 50,000 and less than 500,000, tax is 20% of salary.
+if salary is >= 500,000, tax is 30% of salary.
+
+Question 3: Write a procedure that takes two numbers as input and returns their greatest common divisor (GCD) using Euclid's method:
+
+function gcd(a, b)
+    if b = 0
+        return a
+    else
+        return gcd(b, a mod b)
+
+(mod is modulus (%). Scheme doesn't have the (%) operator. Write a procedure that finds the modulus using repeated subtractions).
+
+
+Question 4: Similar to the example of Newton's method of finding square roots iteratively, there's also Newton's method to find cube roots. Write code for the Exercise 1.8 of SICP.
+
+Question 5: Do the exercise 1.6 of SICP and explain what happens when you try to implement sqr-iter by replacing the if wih the new-if ? (Hint: It has to do evaluating the expresssions in combination. new-if is a function; rules for evaluating the functions and their arguments inside a combination are different from rules for evaluating if, which is a special form.)

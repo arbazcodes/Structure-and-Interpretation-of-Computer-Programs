@@ -1,0 +1,35 @@
+Assignment no. 2
+SICP, Spring 2023.
+Due: 11:59pm, Monday, 6th Mar 2023.
+Total marks: 50 (10 each).
+
+
+Instructions:
+========
+- You will write all the code in Scheme.
+- The book is available online: http://sarabander.github.io/sicp/html/index.xhtml
+- Try to make your code as modular as possible, i.e., try to divide each problem in functions. Each function should be preferably doing one thing only.
+- This is an individual assignment. You can't take copy code from anyone or anywhere.
+- Submission will be on MS Teams.
+- Each of you will submit only one file containing all procedure. It should be named u2020xxx.scm where xxx are the last 3 digits of your registration number.
+- Late submission will have 10 marks penalty. Then 10 marks per hour.
+
+
+Questions:
+=======
+Question 1: Read about the Ackermann’s function in exercise 1.10 in section 1.2 of the book. Show step by step execution using substitution model of both of the following calls:
+(A 1 5)
+(A 2 3)
+
+Write the substitution steps as comments in the submitted file.
+
+
+Question 2: This is the exercise 1.1l of the book: A function f is defined by the rule that f ( n ) = n if n < 3 and f ( n ) = f ( n − 1 ) + 2 f ( n − 2 ) + 3 f ( n − 3 ) if n ≥ 3 . Write a procedure that computes f by means of a recursive process. Write a procedure that computes f by means of an iterative process.
+
+
+Question 3: Do the exercise 1.17 of the book, i.e., write a function that performs multiplication of two numbers using addition, doubling, and halving, and takes a logarithmic number of steps.
+
+Question 4: Do the exercise 1.18 of the book, i.e., devise an iterative version of the algorithms in question 3.
+
+
+Question 5: Do the exercise 1.25 of the book. Write your explanation as comments in the submitted file.
